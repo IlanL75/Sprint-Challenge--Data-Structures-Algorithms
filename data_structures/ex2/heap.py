@@ -1,6 +1,6 @@
 def heapsort(arr):
- pass 
- 
+ heap = Heap() 
+ [heap.insert(el) for el in arr]
 
 class Heap:
   def __init__(self):
